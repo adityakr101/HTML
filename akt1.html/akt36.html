@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Personal Information Form</title>
+</head>
+<body bgcolor="green">
+<form>
+<h3 style="color:F00">Personal Information</h3>
+ Name:
+ <input type="text" id="fullname" name="fullname" required> <br><br>
+ Password:
+ <input type="password" id="password" name="password" required><br><br>
+ Email ID:
+ <input type="email" id="email" name="email" required><br><br>
+ Gender:
+ <input type="radio" name="radiogroup1" value="radio" id="radiogroup1">Male
+<input type="radio" name="radiogroup1" value="radio" 
+id="radiogroup2">Female<br><br>
+ Contact:
+ <input type="tel" id="phone" name="phone" required><br><br>
+ Date of Birth:
+ <input type="date" id="dob" name="dob" required>
+<h3 style="color:F00">Educational Information</h3>
+ Degree:
+ <select name="degree" id="degree">
+ <option selected>--select group</option>
+ <option>B.TECH</option>
+ <option>B.SC</option>
+ <option>B. COM</option>
+ <option>BE</option>
+ </select><br>
+ <br> 
+ 
+ Engineering:
+ <select name="eng" id="eng">
+ <option selected>--select group</option>
+ <option>CSE</option>
+ <option>ISE</option>
+ <option>ECE</option>
+ <option>AIML</option>
+ </select><br>
+ <br>
+ Hobbies:
+ <input type="checkbox" name="checkboxgroup1" value="checkbox" 
+id="checkboxgroup1">playing chess<br>
+ <input type="checkbox" name="checkboxgroup1" value="radio" 
+id="checkboxgroup2">reding books<br><br>
+<h3 style="color:F00">Address</h3>
+ <textarea name="textarea" cols="35" rows="5" id="textarea"></textarea><br>
+ <br>
+ Attach Resume:
+ <input type="file" name="filefield" id="filefield"><br><br>
+ 
+ <input type="submit" value="Submit">
+ </form>
+</body>
+</html>
